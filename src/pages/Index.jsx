@@ -3,6 +3,10 @@
 import { Box, Container, Flex, Heading, Text, VStack, Image, Link, Spacer, Button } from "@chakra-ui/react";
 import { FaBitcoin, FaEthereum, FaInfoCircle } from "react-icons/fa";
 
+const Chart = () => {
+  return <Text>Chart component will be implemented here.</Text>;
+};
+
 const Index = () => {
   return (
     <Box>
@@ -49,6 +53,9 @@ const Index = () => {
         </Flex>
       </Container>
 
+      <Container maxW="container.xl" py={10}>
+        <Chart />
+      </Container>
       <Container maxW="container.xl" py={10} id="features">
         <Heading as="h3" size="lg" mb={5}>
           Features
